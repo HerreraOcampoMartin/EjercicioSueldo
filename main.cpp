@@ -86,10 +86,6 @@ public:
         return this->categoriaTrabajador;
     }
 
-    float getSueldo() {
-        return this->sueldo;
-    }
-
     void imprimirDatos() {
         cout << nombre << " - " << categoriaTrabajador->getDenominacionCategoria() << " - $" << sueldo << endl;
     }
